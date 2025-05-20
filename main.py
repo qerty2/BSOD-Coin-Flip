@@ -8,6 +8,7 @@ if platform.system() != "Windows":
     input("This script only works on windows")
     sys.exit()
 
+
 # imports for bsod
 from ctypes import windll, c_int, c_uint, c_ulong, POINTER, byref
 

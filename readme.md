@@ -1,10 +1,13 @@
+**THIS ONLY WORKS ON WINDOWS!!**
+
 **This script WILL crash your computer if you lose the game. It will NOT do any damage to your computer.**
 
-Honestly im not evens sure why im putting this on github but:
+Simple python program that asks the user to guess heads or tails, and if you guess wrong it crashes (blue screens) your computer
 
-Simple command line program that asks you "Heads or Tails" and if you choose wrong blue screens your computer.
+Uses a very well documented function build into windows to trigger a blue screen, so this wont cause any damage
 
-It uses very well documented functions built into windows to blue screen your computer safely. I havent put in any warning saying "This will blue screen your computer!" or anything in the script so you can mess with your friends, but dont be a dick.
+Doesnt contain any big flashy "THIS WILL BLUE SCREEN YOUR COMPUTER!" warning in the script so you can use it to mess with your friends
 
-Its an insanely small script but constructive criticism would be great if you have any, as im decently new to python and programming in general (code isnt shit dont worry)
+If you download the .exe version from the releases tab, it may be marked as malicious by your antivirus. This is a well known problem with pyinstaller, which was used to compile it from a .py to a .exe that anyone can run. You can read more about it [here.](https://github.com/pyinstaller/pyinstaller/issues/6754)
 
+TLDR: If the script is marked as malicious; its not. The source code is available for you to read [(main.py)](https://github.com/qerty2/BSOD-Coin-Flip/raw/refs/heads/main/main.py) and if you dont trust the .exe you can always compile it yourself.
