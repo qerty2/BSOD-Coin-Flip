@@ -10,4 +10,4 @@ Doesnt contain any big flashy "THIS WILL BLUE SCREEN YOUR COMPUTER!" warning in 
 
 If you download the .exe version from the releases tab, it may be marked as malicious by your antivirus. This is a well known problem with pyinstaller, which was used to compile it from a .py to a .exe that anyone can run. You can read more about it [here.](https://github.com/pyinstaller/pyinstaller/issues/6754)
 
-TLDR: If the script is marked as malicious; its not. The source code is available for you to read [here](https://github.com/qerty2/BSOD-Coin-Flip/blob/main/main.py) and if you dont trust the .exe you can always compile it yourself.
+TLDR: If the script is marked as malicious; its not. For me to resolve this, id have to sign the program which would cost upwards of $100 a year which is both not worth it and may not even solve the issue. The source code is available for you to read [here](https://github.com/qerty2/BSOD-Coin-Flip/blob/main/main.py) and if you dont trust the .exe you can always compile it yourself.
